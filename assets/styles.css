@@ -1,0 +1,8 @@
+/*Custom styles on top of Bootstrap. */
+
+/* Light grey page background so the white cards and tables stand out */
+body { background:#f5f6fa; }
+/* Cards: no border, soft shadow for a clean look */
+.card { border:0; box-shadow:0 1px 4px rgba(0,0,0,.08); }
+/* Keep table headings on one line so they don't wrap awkwardly */
+.table th { white-space:nowrap; }
