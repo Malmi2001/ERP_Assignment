@@ -4,6 +4,7 @@
  * Columns:Invoice number, Invoiced date, Customer name, Item name with code,Item category, Item unit price (the price on the invoice line).
  */
 $base = '../'; // this file is inside /reports, so go one folder up for links require_once '../config.php';
+require_once __DIR__ . '/../config.php';
 // Date range from the search form (defaults to the current month)
 $from = $_GET['from'] ?? date('Y-m-01'); $to = $_GET['to'] ?? date('Y-m-d');
 $rows = [];

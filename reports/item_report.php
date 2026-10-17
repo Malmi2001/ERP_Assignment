@@ -5,6 +5,7 @@
  * item name and add up the quantities if the same name appears twice.
  */
 $base = '../';
+require_once __DIR__ . '/../config.php'; // database connection
 // GROUP BY item name = no repeated names. SUM() adds the quantities together.
 $rows = $pdo->query("SELECT i.item_name, MIN(c.name) AS category, MIN(s.name) AS sub_category, SUM(i.quantity) AS qty
     FROM items i JOIN item_categories c ON c.id=i.category_id JOIN item_sub_categories s ON s.id=i.sub_category_id
