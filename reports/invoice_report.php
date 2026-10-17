@@ -5,6 +5,7 @@
  * A total of all invoice amounts is shown at the bottom.
  */
 $base = '../'; 
+require_once '../config.php';
 // Date range from the search form (defaults to the current month)
 $from = $_GET['from'] ?? date('Y-m-01'); $to = $_GET['to'] ?? date('Y-m-d');
 $rows = [];
