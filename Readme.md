@@ -3,6 +3,12 @@
 Customer & Item management with Invoice, Invoice Item and Item reports.
 Stack: PHP 8 (PDO), MySQL/MariaDB, Bootstrap 5, JavaScript.
 
+## Demo Video
+Watch the project walkthrough here: [Mini ERP Demo Video](https://drive.google.com/file/d/1PgeeerxRUTx0668neHnp4HqrqROPf0SA/view?usp=sharing)
+
+## Drive Folder (Demo Video + Code)
+(https://drive.google.com/drive/folders/1_QnXqK77mEbmwDJOtKwmMd_vZ-HuDIVh?usp=sharing)
+
 ## Setup (local)
 1. Install XAMPP (or WAMP/Laragon) with PHP 7.4+ and MySQL. Start **Apache** and **MySQL**.
 2. Copy the `erp` folder into `C:\xampp\htdocs\` (so you have `htdocs\erp\index.php`).
